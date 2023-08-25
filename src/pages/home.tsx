@@ -1,7 +1,7 @@
 import { Results } from "../components/results";
 import { Inputs } from "../components/inputs";
 
-export const Calculator = () => {
+export const Home = () => {
 	return (
 		<div
 			style={{

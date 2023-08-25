@@ -16,7 +16,7 @@ The end goal of this test is to have a functioning frontend that has the followi
 
 ## Your task
 
-This project is initially set up with 2 components (`components/inputs.tsx` and `components/results.tsx`) and a page component (`pages/calculator.tsx`).
+This project is initially set up with 2 components (`components/inputs.tsx` and `components/results.tsx`) and a page component (`pages/home.tsx`).
 
 The `input.tsx` component represents the right hand side of the application, while the `results.tsx` is the left hand side of the application.
 
@@ -69,6 +69,7 @@ Note: these designs are simply sketches and you do not need to follow the exact 
 ## Outcome
 
 When thinking about the structure of this code, consider the wider application/platform and how many other components/pages are dynamic and change on what they show based on the calculator inputs. For this reason, state management is a crucial aspect as it will facilitate how the rest of the application can utilise the users inputs.
+Also consider if you were to keep working on this project in a team of engineers. What practices and concepts would you instill in this early prototype to enable it to build out into a fully fledged platform with lots of other features?
 
 Once done, please either host your code on GitHub/BitBucket/GitLab/other or zip up the folder (without `node_modules`) and send it to one of our team members.
 
