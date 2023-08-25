@@ -68,6 +68,8 @@ Note: these designs are simply sketches and you do not need to follow the exact 
 
 When thinking about the structure of this code, consider the wider application/platform and how many other components/pages are dynamic and change on what they show based on the calculator inputs. For this reason, state management is a crucial aspect as it will facilitate how the rest of the application can utilise the users inputs.
 
+Once done, please either host your code on GitHub/BitBucket/GitLab/other or zip up the folder (without `node_modules`) and send it to one of our team members.
+
 &nbsp;
 
 &nbsp;
