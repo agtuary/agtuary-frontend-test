@@ -4,7 +4,7 @@
 
 The project is for a carbon emission platform, whereby users enter information about a business, in this case a farm, and get outputs from an API which they can then view as charts or save as a report.
 
-This test, is an extremely slimmed down version of the platform which tests the fundamentals of React while also retains the core features and interactions of the platform.
+This test is an extremely slimmed down version of the platform which tests the fundamentals of React while also retains the core features and interactions of the platform.
 
 ## Goal
 
@@ -18,7 +18,7 @@ The end goal of this test is to have a functioning frontend that has the followi
 
 This project is initially set up with 2 components (`components/inputs.tsx` and `components/results.tsx`) and a page component (`pages/calculator.tsx`).
 
-The `input.tsx` component represents the right hand side of the application, while the `results` is the left hand side of the application.
+The `input.tsx` component represents the right hand side of the application, while the `results.tsx` is the left hand side of the application.
 
 ### Inputs
 
@@ -47,6 +47,8 @@ In the `Beef` inputs, implement the following validation: If the user has entere
 In both input pages, the user must enter a value for every text box/input field. If they try to click `Back` without having entered something, an error must appear. If any error or validation message is visible to the user on that page, they cannot go `Back`.
 
 ### Results
+
+The results page is always visible to the user and dynamically updates based on what the user has inputted.
 
 #### Design
 
